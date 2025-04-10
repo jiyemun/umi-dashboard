@@ -7,28 +7,45 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'TACHYON',
   },
+  locale: {
+    antd: true,
+    baseNavigator: false,
+    baseSeparator: '-',
+    default: 'en-US',
+    title: false,
+    useLocalStorage: false,
+  },
+  favicons: ['/favicon.ico'],
   routes: [
     {
       path: '/',
       redirect: '/home',
     },
     {
-      name: '首页',
+      name: 'Home',
       path: '/home',
       component: './Home',
     },
     {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
+      name: 'Projects',
+      path: '/projects',
+      component: './Projects',
     },
     {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
+      name: 'Profile',
+      path: '/profile',
+      component: './Profile',
     },
   ],
+
   npmClient: 'npm',
+  alias: {
+    '@': require('path').resolve(__dirname, 'src'),
+  },
+  define: {
+    'process.env': process.env, // ✅ 환경 변수 사용 가능하게 설정
+  },
+  tailwindcss: {},
 });
