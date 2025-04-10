@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "KOIIA Coffe Delivery Web Application",
+    "date": "2020-07-10",
+    "techStack": ["Vue.js", "Javascript", "CSS", "Git"],
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "Syscon Project Demo Hompage",
+    "date": "2020-07-16",
+    "techStack": ["HTML", "CSS", "Javascript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "Syscon Hompage",
+    "date": "2020-08-01",
+    "techStack": ["Javascript", "Bootstrap", "Zpline"],
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Stand Alone Mobile Web Application",
+    "date": "2020-12-20",
+    "techStack": ["Vue.js", "JavaScript", "rosLib", "Vuetify"],
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "Syscon 자체 서비스 Fleet Manager Ver.1",
+    "date": "2021-07-03",
+    "techStack": ["Vue.js", "JavaScript", "Zpline", "Paper.js"],
+    "description": ""
+  },
+  {
+    "id": 6,
+    "name": "HMGICs Mobile Web Application",
+    "date": "2022-01-28",
+    "techStack": ["Vue.js", "Javascript"],
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "셋업 툴 Tablet Web Service",
+    "date": "2022-01-05",
+    "techStack": ["Vue.js", "Javascript", "CoreUI", "Paper.js"],
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "Syscon 자체 서비스 Fleet Manager Ver.2",
+    "date": "2022-11-01",
+    "techStack": [
+      "Vue.js",
+      "TypeScript",
+      "Ant Design Vue",
+      "Vben Admin",
+      "Mock Server"
+    ],
+    "description": ""
+  },
+  {
+    "id": 9,
+    "name": "Hyundai 자동차 물류 자동화 모니터링 웹서비스",
+    "date": "2022-12-02",
+    "techStack": [
+      "Vue.js",
+      "TypeScript",
+      "Konva.js",
+      "Stomp.js",
+      "Web API(Audio)",
+      "Ant Design Vue",
+      "Less",
+      "MSSQL"
+    ],
+    "description": ""
+  },
+  {
+    "id": 10,
+    "name": "Samsung SDS Logistics Warehouse 웹서비스",
+    "date": "2022-10-25",
+    "techStack": ["Vue.js", "TypeScript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "Hyundai Lambda Engine 모니터링 웹서비스",
+    "date": "2023-06-02",
+    "techStack": ["Vue.js", "TypeScript", "SSE", "Git"],
+    "description": ""
+  },
+  {
+    "id": 12,
+    "name": "Hyundai MOBIS 북미 Stator Assy 모니터링 웹서비스",
+    "date": "2023-09-15",
+    "techStack": ["Vue.js", "TypeScript", "Git", "RxJS"],
+    "description": ""
+  },
+  {
+    "id": 13,
+    "name": "한국전자산업협회",
+    "date": "2024-01-30",
+    "techStack": ["Vue.js", "TypeScript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 14,
+    "name": "Syscon Project Demo Hompage",
+    "date": "2024-02-01",
+    "techStack": ["Vue.js", "TypeScript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 15,
+    "name": "LGD Hybrid AMR",
+    "date": "2024-10-01",
+    "techStack": ["Vue.js", "TypeScript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "딜리 모니터링",
+    "date": "2024-11-01",
+    "techStack": ["Vue.js", "TypeScript", "Git"],
+    "description": ""
+  },
+  {
+    "id": 17,
+    "name": "신규 관제 서비스",
+    "date": "2025-03-31",
+    "techStack": ["Svelte.js", "TypeScript", "Konva", "Rete.js", "Git"],
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "구영테크 PLC 셋팅 툴",
+    "date": "2025-04-11",
+    "techStack": [
+      "React.js",
+      "Vite",
+      "SignalR",
+      "Zustand",
+      "Tailwind CSS",
+      "Ant Design",
+      "TypeScript",
+      "Git"
+    ],
+    "description": ""
+  }
+]
