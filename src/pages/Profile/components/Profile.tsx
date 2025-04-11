@@ -107,12 +107,11 @@ export const Profile: React.FC = () => {
 
   return (
     <Row gutter={[20, 20]}>
-      <Col sm={8}>
+      <Col sm={24} md={12} xl={8}>
         <ProCard
           boxShadow
-          bodyStyle={{
-            padding: 0,
-          }}
+          bodyStyle={{ padding: 0 }}
+          className={styles.cardHeight}
         >
           <div className="text-center">
             <div
@@ -151,8 +150,13 @@ export const Profile: React.FC = () => {
           </div>
         </ProCard>
       </Col>
-      <Col sm={24} md={16}>
-        <ProCard title="Technical Skills" boxShadow className="h-full">
+
+      <Col sm={24} md={12} xl={16}>
+        <ProCard
+          title="Technical Skills"
+          boxShadow
+          className={styles.cardHeight}
+        >
           {Object.entries(techStacksByCategory).map(([category, techs]) => (
             <div key={category} className="mb-2">
               <p className="font-medium">{category}</p>
@@ -174,7 +178,8 @@ export const Profile: React.FC = () => {
           ))}
         </ProCard>
       </Col>
-      <Col sm={6}>
+
+      <Col sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🎓 Education" className={styles.cardHeight}>
           <p>
             2014.03 - 2018.02 <br />
@@ -186,7 +191,8 @@ export const Profile: React.FC = () => {
           </p>
         </ProCard>
       </Col>
-      <Col sm={6}>
+
+      <Col sm={24} md={12} xl={6}>
         <ProCard
           boxShadow
           title="🏅 Certifications"
@@ -196,7 +202,8 @@ export const Profile: React.FC = () => {
           <p>ICDL Certificate (2014년 12월 취득)</p>
         </ProCard>
       </Col>
-      <Col sm={6}>
+
+      <Col sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🔧 Projects" className={styles.cardHeight}>
           {projects?.length > 0 &&
             projects
@@ -206,7 +213,8 @@ export const Profile: React.FC = () => {
               ))}
         </ProCard>
       </Col>
-      <Col sm={6}>
+
+      <Col sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🤝 Contact" className={styles.cardHeight}>
           <p>✉️ jym6853@gmail.com</p>
           <p>
