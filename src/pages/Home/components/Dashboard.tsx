@@ -55,8 +55,8 @@ const Dashboard: React.FC = () => {
                 </Col>
                 <Col xs={6} className="flex justify-end">
                   <div
-                    className="bg-blue-400 text-white text-3xl flex items-center justify-center rounded"
-                    style={{ width: '48px', height: '48px' }}
+                    className="bg-blue-400 text-white text-2xl flex items-center justify-center rounded"
+                    style={{ width: '40px', height: '40px' }}
                   >
                     {item.icon}
                   </div>
