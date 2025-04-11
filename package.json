@@ -3,6 +3,7 @@
   "author": "jiyemun <jym6853@gmail.com>",
   "scripts": {
     "build": "max build",
+    "deploy": "gh-pages -d dist",
     "dev": "max dev",
     "format": "prettier --cache --write .",
     "postinstall": "max setup",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^6.3.0",
     "husky": "^9",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
