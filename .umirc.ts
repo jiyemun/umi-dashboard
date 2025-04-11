@@ -1,6 +1,8 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
+  base: '/umi-dashboard/',
+  publicPath: '/umi-dashboard/',
   antd: {},
   access: {},
   model: {},
