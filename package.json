@@ -3,7 +3,7 @@
   "author": "jiyemun <jym6853@gmail.com>",
   "scripts": {
     "build": "max build",
-    "postbuild": "cp dist/index.html dist/404.html",
+    "postbuild": "copy dist\\index.html dist\\404.html",
     "deploy": "gh-pages -d dist",
     "dev": "max dev",
     "format": "prettier --cache --write .",
