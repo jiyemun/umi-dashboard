@@ -66,7 +66,7 @@ const Dashboard: React.FC = () => {
           </ProCard>
         </Col>
       ))}
-      <Col sm={24} md={12}>
+      <Col xs={24} sm={24} md={12}>
         <ProCard
           title="월별 보안 이벤트 발생 건수"
           boxShadow
@@ -75,7 +75,7 @@ const Dashboard: React.FC = () => {
           <DualAxesChart />
         </ProCard>
       </Col>
-      <Col sm={24} md={12}>
+      <Col xs={24} sm={24} md={12}>
         <ProCard
           title="탐지된 위협 건수 추이"
           boxShadow
@@ -84,7 +84,7 @@ const Dashboard: React.FC = () => {
           <LineChart />
         </ProCard>
       </Col>
-      <Col sm={24} md={12} lg={8}>
+      <Col xs={24} sm={24} md={12} lg={8}>
         <ProCard
           title="탐지된 위협 유형 분포"
           boxShadow
@@ -93,12 +93,12 @@ const Dashboard: React.FC = () => {
           <PieChart />
         </ProCard>
       </Col>
-      <Col sm={24} md={12} lg={8}>
+      <Col xs={24} sm={24} md={12} lg={8}>
         <ProCard title="위험 등급 분포" boxShadow className={styles.cardHeight}>
           <RadarChart />
         </ProCard>
       </Col>
-      <Col sm={24} md={12} lg={8}>
+      <Col xs={24} sm={24} md={12} lg={8}>
         <ProCard
           title="위협 대응 진행 상황"
           boxShadow

@@ -107,7 +107,7 @@ export const Profile: React.FC = () => {
 
   return (
     <Row gutter={[20, 20]}>
-      <Col sm={24} md={12} xl={8}>
+      <Col xs={24} sm={24} md={12} xl={8}>
         <ProCard
           boxShadow
           bodyStyle={{ padding: 0 }}
@@ -151,7 +151,7 @@ export const Profile: React.FC = () => {
         </ProCard>
       </Col>
 
-      <Col sm={24} md={12} xl={16}>
+      <Col xs={24} sm={24} md={12} xl={16}>
         <ProCard
           title="Technical Skills"
           boxShadow
@@ -179,7 +179,7 @@ export const Profile: React.FC = () => {
         </ProCard>
       </Col>
 
-      <Col sm={24} md={12} xl={6}>
+      <Col xs={24} sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🎓 Education" className={styles.cardHeight}>
           <p>
             2014.03 - 2018.02 <br />
@@ -192,7 +192,7 @@ export const Profile: React.FC = () => {
         </ProCard>
       </Col>
 
-      <Col sm={24} md={12} xl={6}>
+      <Col xs={24} sm={24} md={12} xl={6}>
         <ProCard
           boxShadow
           title="🏅 Certifications"
@@ -203,7 +203,7 @@ export const Profile: React.FC = () => {
         </ProCard>
       </Col>
 
-      <Col sm={24} md={12} xl={6}>
+      <Col xs={24} sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🔧 Projects" className={styles.cardHeight}>
           {projects?.length > 0 &&
             projects
@@ -214,7 +214,7 @@ export const Profile: React.FC = () => {
         </ProCard>
       </Col>
 
-      <Col sm={24} md={12} xl={6}>
+      <Col xs={24} sm={24} md={12} xl={6}>
         <ProCard boxShadow title="🤝 Contact" className={styles.cardHeight}>
           <p>✉️ jym6853@gmail.com</p>
           <p>
