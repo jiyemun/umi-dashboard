@@ -40,6 +40,11 @@ export default defineConfig({
       path: '/profile',
       component: './Profile',
     },
+    {
+      name: 'Test',
+      path: '/test',
+      component: './Test',
+    },
   ],
 
   npmClient: 'npm',
